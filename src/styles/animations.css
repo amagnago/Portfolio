@@ -1,0 +1,26 @@
+.fade {
+  animation: fade 0.5s ease-in-out;
+}
+
+.slide {
+  animation: slide 0.5s ease-in-out;
+}
+
+.scale {
+  animation: scale 0.5s ease-in-out;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slide {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes scale {
+  0% { transform: scale(0); }
+  100% { transform: scale(1); }
+}
