@@ -1,0 +1,26 @@
+.main {
+  flex: 1;
+  width: 100%;
+}
+
+.section {
+  padding: 4rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.section:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 2.5rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 2rem 0;
+  }
+}

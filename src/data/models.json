@@ -1,0 +1,46 @@
+{
+  "models": [
+    {
+      "id": "slicer",
+      "name": "Slicer",
+      "file": "/assets/3d-models/slicer/Slicer.glb",
+      "thumbnail": "/assets/3d-models/slicer/idle.gif",
+      "description": "Demon like character with swords in its hands",
+      "animations": [
+        {
+          "name": "Idle",
+          "preview": "/assets/3d-models/slicer/idle.gif"
+        },
+        {
+          "name": "Walk",
+          "preview": "/assets/3d-models/slicer/walk.gif"
+        },
+        {
+          "name": "Attack",
+          "preview": "/assets/3d-models/slicer/attack.gif"
+        }
+      ]
+    },
+    {
+      "id": "pyrrhic-3rd-person",
+      "name": "3RD Person Character",
+      "file": "/assets/3d-models/pyrrhic-3rd-person/model.glb",
+      "thumbnail": "/assets/3d-models/pyrrhic-3rd-person/idle.gif",
+      "description": "Armed soldier with an smg",
+      "animations": [
+        {
+          "name": "Idle",
+          "preview": "/assets/3d-models/pyrrhic-3rd-person/idle.gif"
+        },
+        {
+          "name": "Running",
+          "preview": "/assets/3d-models/pyrrhic-3rd-person/running.gif"
+        },
+        {
+          "name": "Reloading",
+          "preview": "/assets/3d-models/pyrrhic-3rd-person/reloading.gif"
+        }
+      ]
+    }
+  ]
+}

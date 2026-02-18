@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "id": "game-dev",
+      "title": "Game Development",
+      "skills": [
+        { "name": "Unity", "level": 95, "icon": "⚙️" },
+        { "name": "C#", "level": 98, "icon": "💻" },
+        { "name": "Gameplay Systems", "level": 92, "icon": "🎮" },
+        { "name": "Game Architecture", "level": 90, "icon": "🏗️" },
+        { "name": "Physics & Collision", "level": 88, "icon": "⚡" },
+        { "name": "AI & Pathfinding", "level": 85, "icon": "🤖" }
+      ]
+    },
+    {
+      "id": "programming",
+      "title": "Programación",
+      "skills": [
+        { "name": "OOP", "level": 95, "icon": "📦" },
+        { "name": "Design Patterns", "level": 92, "icon": "🔄" },
+        { "name": "Algorithms", "level": 88, "icon": "📐" },
+        { "name": "Data Structures", "level": 90, "icon": "🗂️" },
+        { "name": "Debugging", "level": 93, "icon": "🔍" },
+        { "name": "Code Optimization", "level": 97, "icon": "⚡" }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Herramientas",
+      "skills": [
+        { "name": "Git & Github", "level": 90, "icon": "🌳" },
+        { "name": "Blender 3D", "level": 78, "icon": "🎨" },
+        { "name": "Visual Studio", "level": 95, "icon": "💾" }
+      ]
+    }
+  ]
+}
