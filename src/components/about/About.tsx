@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useIntersectionObserver } from "../../hooks/useCustom";
+import { resolveAssetPath } from "../../utils/helpers";
 import styles from "./About.module.css";
 
 const About: React.FC = () => {
@@ -64,10 +65,11 @@ const About: React.FC = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <div className={styles.imageBox}>
-            <div className={styles.imagePlaceholder}>
-              <div>Your Professional Photo</div>
-              <p>Replace with real image</p>
-            </div>
+            <img 
+              src={resolveAssetPath("/assets/profile.jpg")} 
+              alt="Professional photo"
+              className="w-full h-full object-cover rounded-xl"
+            />
           </div>
         </motion.div>
       </div>

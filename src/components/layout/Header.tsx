@@ -12,8 +12,8 @@ const Header: React.FC = () => {
       <div className="container-custom flex items-center justify-between h-full">
         {/* Logo */}
         <Link to="/" className={styles.logo}>
-          <span className="gradient-text text-2xl md:text-3xl font-bold">
-            &lt;Game/Dev&gt;
+          <span className="text-3xl md:text-4xl">
+            🎮
           </span>
         </Link>
 
