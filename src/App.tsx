@@ -7,7 +7,7 @@ import "./App.css";
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/Portfolio">
       <div className="min-h-screen flex flex-col bg-primary">
         <Header />
         <Routes>
