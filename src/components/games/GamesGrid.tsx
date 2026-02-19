@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { useIntersectionObserver } from "../../hooks/useCustom";
+import { resolveAssetPath } from "../../utils/helpers";
 import GameCard from "./GameCard";
 import gamesData from "../../data/games.json";
 import styles from "./GamesGrid.module.css";
@@ -63,7 +64,7 @@ const GamesGrid: React.FC = () => {
                     {/* Cover Image */}
                     <div className="w-full md:w-1/3 flex-shrink-0">
                       <img 
-                        src={game.cover} 
+                        src={resolveAssetPath(game.cover)} 
                         alt={game.title}
                         className="w-full rounded-lg object-cover"
                       />
@@ -134,7 +135,7 @@ const GamesGrid: React.FC = () => {
                         {game.gameplay.map((gif, idx) => (
                           <img 
                             key={idx}
-                            src={gif} 
+                            src={resolveAssetPath(gif)} 
                             alt={`${game.title} gameplay ${idx + 1}`}
                             className="w-full rounded-lg"
                           />

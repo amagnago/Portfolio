@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Badge, Button } from "../common";
+import { resolveAssetPath } from "../../utils/helpers";
 
 interface GameType {
   id: string;
@@ -21,7 +22,7 @@ const GameCard: React.FC<GameCardProps> = ({ game, onSelect }) => {
       {/* Game Cover Image */}
       <div className="w-full h-48 bg-secondary rounded-lg mb-4 overflow-hidden">
         <img 
-          src={game.cover} 
+          src={resolveAssetPath(game.cover)} 
           alt={game.title}
           className="w-full h-full object-cover"
           onError={(e) => {

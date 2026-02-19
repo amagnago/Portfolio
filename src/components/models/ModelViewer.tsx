@@ -2,6 +2,7 @@ import React, { useState, Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Environment, ContactShadows } from "@react-three/drei";
 import { Card } from "../common";
+import { resolveAssetPath } from "../../utils/helpers";
 import styles from "./ModelViewer.module.css";
 
 interface Model {
@@ -39,7 +40,7 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ model }) => {
               <ambientLight intensity={0.5} />
               <directionalLight position={[10, 10, 5]} intensity={1} />
               <Suspense fallback={null}>
-                <Model3D url={model.file} />
+                <Model3D url={resolveAssetPath(model.file)} />
                 <Environment preset="city" />
                 <ContactShadows
                   position={[0, -1.5, 0]}
@@ -101,7 +102,7 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ model }) => {
                   </div>
                   {anim.preview && (
                     <img
-                      src={anim.preview}
+                      src={resolveAssetPath(anim.preview)}
                       alt={anim.name}
                       className="w-full h-32 object-cover rounded mt-2"
                       style={{ opacity: 0.7 }}
