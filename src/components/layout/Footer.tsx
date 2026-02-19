@@ -26,10 +26,10 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-text font-semibold mb-4">Contact</h4>
             <a
-              href="mailto:tu-email@example.com"
+              href="mailto:amagnago18@gmail.com"
               className="text-text-muted hover:text-accent transition-colors"
             >
-              tu-email@example.com
+              amagnago18@gmail.com
             </a>
           </div>
         </div>
@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
 
         <div className={styles.bottom}>
           <p className="text-text-muted text-sm">
-            © {currentYear} Your Name. All rights reserved.
+            © {currentYear} Agustin Magnago. All rights reserved.
           </p>
           <p className="text-text-muted text-sm">
             Built with React + Vite + Tailwind CSS
