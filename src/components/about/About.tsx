@@ -66,7 +66,7 @@ const About: React.FC = () => {
         >
           <div className={styles.imageBox}>
             <img 
-              src={resolveAssetPath("/assets/profile.jpg")} 
+              src={resolveAssetPath("/assets/profile.jpeg")} 
               alt="Professional photo"
               className="w-full h-full object-cover rounded-xl"
             />
