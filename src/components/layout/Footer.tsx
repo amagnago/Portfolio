@@ -14,17 +14,17 @@ const Footer: React.FC = () => {
               Game Developer Portfolio
             </h3>
             <p className="text-text-muted text-sm">
-              Creando experiencias interactivas inmersivas con Unity y C#
+              Creating immersive interactive experiences with Unity and C#
             </p>
           </div>
 
           <div>
-            <h4 className="text-text font-semibold mb-4">Enlaces</h4>
+            <h4 className="text-text font-semibold mb-4">Links</h4>
             <SocialLinks />
           </div>
 
           <div>
-            <h4 className="text-text font-semibold mb-4">Contacto</h4>
+            <h4 className="text-text font-semibold mb-4">Contact</h4>
             <a
               href="mailto:tu-email@example.com"
               className="text-text-muted hover:text-accent transition-colors"
@@ -38,10 +38,10 @@ const Footer: React.FC = () => {
 
         <div className={styles.bottom}>
           <p className="text-text-muted text-sm">
-            © {currentYear} Tu Nombre. Todos los derechos reservados.
+            © {currentYear} Your Name. All rights reserved.
           </p>
           <p className="text-text-muted text-sm">
-            Hecho con React + Vite + Tailwind CSS
+            Built with React + Vite + Tailwind CSS
           </p>
         </div>
       </div>

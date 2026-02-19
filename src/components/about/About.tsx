@@ -15,44 +15,44 @@ const About: React.FC = () => {
           animate={isVisible ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="section-title">Sobre mí</h2>
+          <h2 className="section-title">About Me</h2>
           <p className={styles.subtitle}>
-            Game Developer especializado en sistemas de gameplay y programación en C#
+            Game Developer specializing in gameplay systems and C# programming
           </p>
 
           <div className={styles.description}>
             <p>
-              Con más de 5 años de experiencia en desarrollo de videojuegos, me apasiona
-              crear sistemas técnicos elegantes y experiencias interactivas inmersivas.
-              Mi especialidad está en arquitectura de código, sistemas de gameplay complejos
-              y optimización de performance.
+              With more than 5 years of experience in game development, I'm passionate about
+              creating elegant technical systems and immersive interactive experiences.
+              My specialty is in code architecture, complex gameplay systems
+              and performance optimization.
             </p>
 
             <p>
-              He trabajado en múltiples proyectos utilizando Unity y C#, desde pequeños
-              juegos indie hasta proyectos más complejos. Tengo un profundo conocimiento en
-              patrones de diseño, estructuras de datos y buenas prácticas de programación.
+              I have worked on multiple projects using Unity and C#, from small
+              indie games to more complex projects. I have deep knowledge of
+              design patterns, data structures and best programming practices.
             </p>
 
             <p>
-              Fuera del desarrollo, me interesa la creación de 3D assets, la IA en juegos y
-              el análisis de game design. Creo en escribir código limpio, documentado y
-              escalable que sea mantenible en el tiempo.
+              Outside of development, I'm interested in 3D asset creation, AI in games and
+              game design analysis. I believe in writing clean, documented and
+              scalable code that is maintainable over time.
             </p>
           </div>
 
           <div className={styles.stats}>
             <div className={styles.stat}>
               <div className={styles.number}>5+</div>
-              <p>Años de experiencia</p>
+              <p>Years of experience</p>
             </div>
             <div className={styles.stat}>
               <div className={styles.number}>15+</div>
-              <p>Proyectos completados</p>
+              <p>Projects Completed</p>
             </div>
             <div className={styles.stat}>
               <div className={styles.number}>∞</div>
-              <p>Apasión por el código</p>
+              <p>Passion for Code</p>
             </div>
           </div>
         </motion.div>
@@ -65,8 +65,8 @@ const About: React.FC = () => {
         >
           <div className={styles.imageBox}>
             <div className={styles.imagePlaceholder}>
-              <div>Tu Foto Profesional</div>
-              <p>Reemplazar con imagen real</p>
+              <div>Your Professional Photo</div>
+              <p>Replace with real image</p>
             </div>
           </div>
         </motion.div>

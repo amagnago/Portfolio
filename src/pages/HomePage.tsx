@@ -31,12 +31,12 @@ const HomePage: React.FC = () => {
 
       <section id="contact" className={styles.section}>
         <div className="container-custom text-center py-16">
-          <h2 className="section-title">Contacto</h2>
+          <h2 className="section-title">Contact</h2>
           <p className="section-subtitle">
-            ¿Quieres colaborar o hablar de mis proyectos?
+            Want to collaborate or talk about my projects?
           </p>
           <a href="mailto:tu-email@example.com" className="btn-primary inline-block">
-            Enviar email
+            Send Email
           </a>
         </div>
       </section>

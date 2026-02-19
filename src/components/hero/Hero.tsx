@@ -54,10 +54,10 @@ const Hero: React.FC = () => {
 
           <motion.div className={styles.cta} variants={itemVariants}>
             <button className="btn-primary">
-              Ver mis proyectos
+              View My Projects
             </button>
             <a href={profile.cvUrl} className="btn-secondary" target="_blank" rel="noopener noreferrer">
-              Descargar CV
+              Download CV
             </a>
           </motion.div>
 
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
         >
-          <span>Scroll para explorar</span>
+          <span>Scroll to explore</span>
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M12 5v14M19 18l-7 7-7-7" />
           </svg>

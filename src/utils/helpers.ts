@@ -1,7 +1,7 @@
-/* Funciones auxiliares reutilizables */
+/* Reusable helper functions */
 
 /**
- * Resuelve rutas de assets con la base URL correcta
+ * Resolves asset paths with the correct base URL
  */
 export const resolveAssetPath = (path: string): string => {
   const base = import.meta.env.BASE_URL || '/';
@@ -12,14 +12,14 @@ export const resolveAssetPath = (path: string): string => {
 };
 
 /**
- * Combina clases CSS de forma segura
+ * Safely combines CSS classes
  */
 export const classNames = (...classes: (string | undefined | null | false)[]): string => {
   return classes.filter(Boolean).join(" ");
 };
 
 /**
- * Debounce para optimizar event handlers
+ * Debounce to optimize event handlers
  */
 export const debounce = <T extends (...args: any[]) => any>(
   func: T,
@@ -34,7 +34,7 @@ export const debounce = <T extends (...args: any[]) => any>(
 };
 
 /**
- * Throttle para limitar llamadas de funciones
+ * Throttle to limit function calls
  */
 export const throttle = <T extends (...args: any[]) => any>(
   func: T,
@@ -52,7 +52,7 @@ export const throttle = <T extends (...args: any[]) => any>(
 };;
 
 /**
- * Obtiene el scroll progress (0-1)
+ * Gets the scroll progress (0-1)
  */
 export const getScrollProgress = (): number => {
   const scrollTop = window.scrollY;
@@ -61,7 +61,7 @@ export const getScrollProgress = (): number => {
 };
 
 /**
- * Calcula si un elemento está en viewport
+ * Calculates if an element is in viewport
  */
 export const isElementInViewport = (element: HTMLElement): boolean => {
   const rect = element.getBoundingClientRect();
@@ -74,7 +74,7 @@ export const isElementInViewport = (element: HTMLElement): boolean => {
 };
 
 /**
- * Formatea números a formato legible
+ * Formats numbers to readable format
  */
 export const formatNumber = (num: number): string => {
   if (num >= 1000000) return (num / 1000000).toFixed(1) + "M";
@@ -83,7 +83,7 @@ export const formatNumber = (num: number): string => {
 };
 
 /**
- * Copia texto al portapapeles
+ * Copies text to clipboard
  */
 export const copyToClipboard = async (text: string): Promise<boolean> => {
   try {

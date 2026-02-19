@@ -15,9 +15,9 @@ const Skills: React.FC = () => {
         animate={isVisible ? { opacity: 1 } : {}}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="section-title">Habilidades Técnicas</h2>
+        <h2 className="section-title">Technical Skills</h2>
         <p className="section-subtitle">
-          Stack de tecnologías y competencias profesionales
+          Technology stack and professional competencies
         </p>
       </motion.div>
 

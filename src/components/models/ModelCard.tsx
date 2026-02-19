@@ -25,7 +25,7 @@ const ModelCard: React.FC<ModelCardProps> = ({ model, onSelect }) => {
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
         <div className="text-center relative z-10">
           <div className="text-4xl mb-2">🏃</div>
-          <p className="text-sm text-text-muted">Modelo 3D</p>
+          <p className="text-sm text-text-muted">3D Model</p>
         </div>
         <div className="absolute inset-0 bg-accent/0 group-hover:bg-accent/10 transition-colors" />
       </div>
@@ -37,7 +37,7 @@ const ModelCard: React.FC<ModelCardProps> = ({ model, onSelect }) => {
       {/* Animations Preview */}
       <div className="mb-4">
         <p className="text-xs font-semibold text-accent mb-2">
-          {model.animations.length} Animaciones
+          {model.animations.length} Animations
         </p>
         <div className="flex flex-wrap gap-1">
           {model.animations.map((anim) => (
@@ -52,7 +52,7 @@ const ModelCard: React.FC<ModelCardProps> = ({ model, onSelect }) => {
       </div>
 
       {/* Button */}
-      <button className="btn-secondary w-full text-sm">Ver en 3D</button>
+      <button className="btn-secondary w-full text-sm">View in 3D</button>
     </Card>
   );
 };

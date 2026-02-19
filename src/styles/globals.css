@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Estilos globales de componentes */
+/* Global component styles */
 @layer components {
   .container-custom {
     @apply max-w-6xl mx-auto px-6 md:px-12 lg:px-16;
@@ -52,7 +52,7 @@ body {
   }
 }
 
-/* Scrollbar personalizado */
+/* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -70,7 +70,7 @@ body {
   background: var(--accent-dark);
 }
 
-/* Selección de texto */
+/* Text Selection */
 ::selection {
   background: var(--accent);
   color: white;

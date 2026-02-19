@@ -17,9 +17,9 @@ const GamesGrid: React.FC = () => {
         animate={isVisible ? { opacity: 1 } : {}}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="section-title">Juegos y Proyectos</h2>
+        <h2 className="section-title">Games & Projects</h2>
         <p className="section-subtitle">
-          Proyectos destacados en los que he trabajado
+          Featured projects I've worked on
         </p>
       </motion.div>
 
@@ -47,7 +47,7 @@ const GamesGrid: React.FC = () => {
             <button 
               className={styles.close} 
               onClick={() => setSelectedGame(null)}
-              aria-label="Cerrar"
+              aria-label="Close"
             >
               ✕
             </button>
@@ -123,7 +123,7 @@ const GamesGrid: React.FC = () => {
                   
                   {/* Technical Description */}
                   <div className="mb-6">
-                    <h3 className="text-xl font-semibold text-text mb-3">Descripción Técnica</h3>
+                    <h3 className="text-xl font-semibold text-text mb-3">Technical Description</h3>
                     <p className="text-text-muted leading-relaxed">{game.technicalDescription}</p>
                   </div>
                   

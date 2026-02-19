@@ -2,17 +2,17 @@
 
 export const SITE = {
   title: "Game Developer Portfolio",
-  description: "Portafolio profesional de Game Developer enfocado en Unity y C#",
-  author: "Tu Nombre",
+  description: "Professional Game Developer Portfolio focused on Unity and C#",
+  author: "Your Name",
 };
 
 export const NAVIGATION = [
-  { label: "Inicio", href: "#hero" },
-  { label: "Sobre mí", href: "#about" },
-  { label: "Habilidades", href: "#skills" },
-  { label: "Juegos", href: "#games" },
-  { label: "Modelos 3D", href: "#models" },
-  { label: "Contacto", href: "#contact" },
+  { label: "Home", href: "#hero" },
+  { label: "About", href: "#about" },
+  { label: "Skills", href: "#skills" },
+  { label: "Games", href: "#games" },
+  { label: "3D Models", href: "#models" },
+  { label: "Contact", href: "#contact" },
 ];
 
 export const SOCIAL_LINKS = {

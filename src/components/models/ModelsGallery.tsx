@@ -20,9 +20,9 @@ const ModelsGallery: React.FC = () => {
         animate={isVisible ? { opacity: 1 } : {}}
         transition={{ duration: 0.6 }}
       >
-        <h2 className="section-title">Modelos 3D</h2>
+        <h2 className="section-title">3D Models</h2>
         <p className="section-subtitle">
-          Personajes y assets 3D con visualización interactiva
+          Characters and 3D assets with interactive visualization
         </p>
       </motion.div>
 
@@ -47,9 +47,9 @@ const ModelsGallery: React.FC = () => {
           <button
             className={styles.backButton}
             onClick={() => setSelectedModelId(null)}
-            aria-label="Volver"
+            aria-label="Back"
           >
-            ← Volver a galería
+            ← Back to gallery
           </button>
           <ModelViewer model={selectedModel} />
         </div>

@@ -78,10 +78,10 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ model }) => {
           <h2 className="text-3xl font-bold text-text mb-2">{model.name}</h2>
           <p className="text-text-muted mb-6">{model.description}</p>
 
-          {/* Animaciones */}
+          {/* Animations */}
           <div className="mb-8">
             <h3 className="text-xl font-semibold text-text mb-4">
-              Animaciones ({model.animations.length})
+              Animations ({model.animations.length})
             </h3>
             <div className="space-y-3">
               {model.animations.map((anim, index) => (
@@ -97,7 +97,7 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ model }) => {
                   <div className="flex items-center justify-between">
                     <span className="font-medium text-text">{anim.name}</span>
                     <span className="text-xs text-text-muted">
-                      {anim.preview ? "Con preview" : "Sin preview"}
+                      {anim.preview ? "With preview" : "No preview"}
                     </span>
                   </div>
                   {anim.preview && (
@@ -116,13 +116,13 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ model }) => {
           {/* Tech Info */}
           <div className="bg-secondary/50 rounded-lg p-4 border border-white/5">
             <h4 className="text-sm font-semibold text-accent mb-3">
-              Información técnica
+              Technical Information
             </h4>
             <div className="space-y-2 text-sm text-text-muted">
-              <p>• Formato: glTF (.gltf)</p>
-              <p>• Rigged: Sí</p>
-              <p>• Texturizado: Sí</p>
-              <p>• Optimizado: Sí</p>
+              <p>• Format: glTF (.gltf)</p>
+              <p>• Rigged: Yes</p>
+              <p>• Textured: Yes</p>
+              <p>• Optimized: Yes</p>
             </div>
           </div>
         </div>
