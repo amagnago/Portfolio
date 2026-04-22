@@ -17,9 +17,31 @@ interface ModelViewerProps {
   model: Model;
 }
 
+// Hook que convierte la ruta real en blob URL temporal
+function useBlobUrl(path: string) {
+  const [blobUrl, setBlobUrl] = React.useState<string | null>(null);
+
+  React.useEffect(() => {
+    let objectUrl: string;
+    fetch(resolveAssetPath(path))
+      .then((res) => res.blob())
+      .then((blob) => {
+        objectUrl = URL.createObjectURL(blob);
+        setBlobUrl(objectUrl);
+      });
+    return () => {
+      if (objectUrl) URL.revokeObjectURL(objectUrl);
+    };
+  }, [path]);
+
+  return blobUrl;
+}
+
 // Componente que carga el modelo 3D
 function Model3D({ url }: { url: string }) {
-  const { scene } = useGLTF(url);
+  const blobUrl = useBlobUrl(url);
+  if (!blobUrl) return null;
+  const { scene } = useGLTF(blobUrl);
   return <primitive object={scene} scale={0.3} position={[0, -0.5, 0]} />;
 }
 
