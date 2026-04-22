@@ -23,7 +23,9 @@ function useBlobUrl(path: string) {
 
   React.useEffect(() => {
     let objectUrl: string;
-    fetch(resolveAssetPath(path))
+    // resolveAssetPath solo una vez aquí
+    const resolvedPath = resolveAssetPath(path);
+    fetch(resolvedPath)
       .then((res) => res.blob())
       .then((blob) => {
         objectUrl = URL.createObjectURL(blob);
@@ -36,7 +38,6 @@ function useBlobUrl(path: string) {
 
   return blobUrl;
 }
-
 // Componente que carga el modelo 3D
 function Model3D({ url }: { url: string }) {
   const blobUrl = useBlobUrl(url);
@@ -62,7 +63,7 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ model }) => {
               <ambientLight intensity={0.5} />
               <directionalLight position={[10, 10, 5]} intensity={1} />
               <Suspense fallback={null}>
-                <Model3D url={resolveAssetPath(model.file)} />
+                <Model3D url={model.file} />
                 <Environment preset="city" />
                 <ContactShadows
                   position={[0, -1.5, 0]}
