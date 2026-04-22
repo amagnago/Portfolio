@@ -61,7 +61,7 @@ const GameCard: React.FC<GameCardProps> = ({ game, onSelect }) => {
 
       {/* Button */}
       <Button variant="secondary" size="sm" className="w-full">
-        Ver detalles
+        See Details
       </Button>
     </Card>
   );

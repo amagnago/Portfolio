@@ -23,7 +23,7 @@ const About: React.FC = () => {
 
           <div className={styles.description}>
             <p>
-              With more than 5 years of experience in game development, I'm passionate about
+              With 10 years of experience in game development, I'm passionate about
               creating elegant technical systems and immersive interactive experiences.
               My specialty is in code architecture, complex gameplay systems
               and performance optimization.

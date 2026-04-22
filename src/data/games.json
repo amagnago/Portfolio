@@ -8,7 +8,7 @@
       "technologies": ["Unity", "C#", "Scriptable Objects", "Serialization"],
       "cover": "/assets/games/pyrrhic/cover.png",
       "gameplay": [
-        "/assets/games/pyrrhic/gameplay-1.gif"
+        "/assets/games/pyrrhic/gameplay-1.webm"
       ],
       "technicalDescription": "In development, developed a custom character controller with advanced movement mechanics including wall-running, sliding, and double-jumping. Implemented a modular weapon system using Scriptable Objects for easy expansion. Designed and coded the UI for health, ammo, and crosshair feedback. Optimized serialization for saving player progress and settings.",
       "links": {
@@ -23,8 +23,8 @@
       "technologies": ["Unity", "C#", "Physics3D", "Animation"],
       "cover": "/assets/games/metaspeed/cover.png",
       "gameplay": [
-        "/assets/games/metaspeed/gameplay-1.gif",
-        "/assets/games/metaspeed/gameplay-2.gif"
+        "/assets/games/metaspeed/gameplay-1.webm",
+        "/assets/games/metaspeed/gameplay-2.webm"
       ],
       "technicalDescription": "In development, implemented core movement mechanics such as walking and sliding and all the spells have the use to give the player the ability to increase their speed and perform advanced maneuvers. The game features a unique blend of physics-based gameplay and fast-paced action, requiring players to master both movement and spellcasting to succeed.",
       "links": {
@@ -39,9 +39,9 @@
       "technologies": ["Unity", "C#", "Physics3D", "Dialogue Systems"],
       "cover": "/assets/games/bridging/cover.png",
       "gameplay": [
-        "/assets/games/bridging/gameplay-2.gif",
-        "/assets/games/bridging/gameplay-3.gif",
-        "/assets/games/bridging/gameplay-1.gif"
+        "/assets/games/bridging/gameplay-2.webm",
+        "/assets/games/bridging/gameplay-3.webm",
+        "/assets/games/bridging/gameplay-1.webm"
       ],
       "technicalDescription": "Little game made in a Week for a local Game Jam, the theme was ''Bridges'', in it you have to manage - extract - process the different materials available to you on different stations connected by bridges, tutorial included for those who speak spanish.",
       "links": {

@@ -132,12 +132,15 @@ const GamesGrid: React.FC = () => {
                     <div>
                       <h3 className="text-xl font-semibold text-text mb-3">Gameplay</h3>
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                        {game.gameplay.map((gif, idx) => (
-                          <img 
+                        {game.gameplay.map((video, idx) => (
+                          <video 
                             key={idx}
-                            src={resolveAssetPath(gif)} 
-                            alt={`${game.title} gameplay ${idx + 1}`}
+                            src={resolveAssetPath(video)} 
                             className="w-full rounded-lg"
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
                           />
                         ))}
                       </div>
