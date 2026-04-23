@@ -5,8 +5,8 @@
   height: 80px;
   background: linear-gradient(
     180deg,
-    rgba(15, 23, 42, 0.95) 0%,
-    rgba(30, 41, 59, 0.9) 100%
+    #1a0533 0%,
+    #0d0a1a 60%
   );
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);

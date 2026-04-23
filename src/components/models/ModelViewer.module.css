@@ -3,7 +3,7 @@
   height: 100%;
   position: relative;
   border-radius: 12px;
-  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(30, 41, 59, 0.3));
+  background: #0d0a1a;
   overflow: hidden;
 }
 
@@ -20,7 +20,7 @@
   position: absolute;
   bottom: 1rem;
   left: 1rem;
-  background: rgba(15, 23, 42, 0.8);
+  background: #13102b;
   padding: 0.75rem 1rem;
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.1);

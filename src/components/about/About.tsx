@@ -48,12 +48,12 @@ const About: React.FC = () => {
               <p>Years of experience</p>
             </div>
             <div className={styles.stat}>
-              <div className={styles.number}>15+</div>
-              <p>Projects Completed</p>
+              <div className={styles.number}></div>
+              <p></p>
             </div>
             <div className={styles.stat}>
-              <div className={styles.number}>∞</div>
-              <p>Passion for Code</p>
+              <div className={styles.number}>15+</div>
+              <p>Projects Completed</p>
             </div>
           </div>
         </motion.div>

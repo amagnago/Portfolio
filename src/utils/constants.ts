@@ -8,27 +8,26 @@ export const SITE = {
 
 export const NAVIGATION = [
   { label: "Home", href: "#hero" },
-  { label: "About", href: "#about" },
-  { label: "Skills", href: "#skills" },
   { label: "Games", href: "#games" },
   { label: "3D Models", href: "#models" },
+  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
 
 export const SOCIAL_LINKS = {
-  github: "https://github.com",
-  linkedin: "https://linkedin.com",
-  twitter: "https://twitter.com",
-  email: "mailto:tu-email@example.com",
+  github: "https://github.com/amagnago",
+  linkedin: "https://www.linkedin.com/in/agustin-magnago-121044367/",
+  twitter: "https://twitter.com/slomedev",
+  email: "mailto:amagnago18@example.com",
 };
 
 export const COLORS = {
-  primary: "#0f172a",
-  secondary: "#1e293b",
-  accent: "#3b82f6",
-  "accent-dark": "#1d4ed8",
-  text: "#f1f5f9",
-  "text-muted": "#cbd5e1",
+  primary: "#0d0a1a",
+  secondary: "#13102b",
+  accent: "#a855f7",
+  "accent-dark": "#7c3aed",
+  text: "#f3e8ff",
+  "text-muted": "#c084fc",
 };
 
 export const BREAKPOINTS = {

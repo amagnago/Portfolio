@@ -1,6 +1,10 @@
 .footer {
   margin-top: auto;
-  background: linear-gradient(180deg, rgba(30, 41, 59, 0.5), rgba(15, 23, 42, 0.8));
+  background: linear-gradient(
+    180deg,
+    #0d0a1a 0%,
+    #1a0533 60%
+  );
   border-top: 1px solid rgba(255, 255, 255, 0.05);
   padding: 3rem 0 2rem;
   color: var(--text);

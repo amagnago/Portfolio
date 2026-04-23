@@ -7,12 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#0f172a",
-        secondary: "#1e293b",
-        accent: "#3b82f6",
-        'accent-dark': "#1d4ed8",
-        text: "#f1f5f9",
-        'text-muted': "#cbd5e1",
+        primary: "#0d0a1a",
+        secondary: "#1e1a3d",
+        accent: "#a855f7",
+        'accent-dark': "#7c3aed",
+        text: "#f3e8ff",
+        'text-muted': "#c084fc",
       },
       fontFamily: {
         sans: ['Roboto', 'sans-serif'],

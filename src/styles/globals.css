@@ -3,12 +3,12 @@
 @import 'tailwindcss/utilities';
 
 :root {
-  --primary: #0f172a;
-  --secondary: #1e293b;
-  --accent: #3b82f6;
-  --accent-dark: #1d4ed8;
-  --text: #f1f5f9;
-  --text-muted: #cbd5e1;
+  --primary: #0d0a1a;
+  --secondary: #1e1a3d;
+  --accent: #a855f7;
+  --accent-dark: #7c3aed;
+  --text: #f3e8ff;
+  --text-muted: #c084fc;
 }
 
 html {
@@ -24,6 +24,9 @@ body {
 /* Global component styles */
 @layer components {
   .container-custom {
+    @apply max-w-6xl mx-auto px-6 md:px-12 lg:px-16;
+  }
+  .container-customB {
     @apply max-w-6xl mx-auto px-6 md:px-12 lg:px-16;
   }
 

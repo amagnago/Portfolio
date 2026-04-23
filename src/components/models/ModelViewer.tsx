@@ -90,7 +90,7 @@ const ModelViewer: React.FC<ModelViewerProps> = ({ model }) => {
                   onChange={(e) => setIsRotating(e.target.checked)}
                   className="cursor-pointer"
                 />
-                <span className="text-text-muted">Rotación automática</span>
+                <span className="text-text-muted">Auto Rotation</span>
               </label>
             </div>
           </div>

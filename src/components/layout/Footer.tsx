@@ -40,9 +40,6 @@ const Footer: React.FC = () => {
           <p className="text-text-muted text-sm">
             © {currentYear} Agustin Magnago. All rights reserved.
           </p>
-          <p className="text-text-muted text-sm">
-            Built with React + Vite + Tailwind CSS
-          </p>
         </div>
       </div>
     </footer>

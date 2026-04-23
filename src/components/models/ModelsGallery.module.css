@@ -27,7 +27,7 @@
 
 .backButton:hover {
   border-color: var(--color-accent);
-  background: rgba(59, 130, 246, 0.1);
+  background: rgba(9, 20, 39, 0.1);
 }
 
 .container {

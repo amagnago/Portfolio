@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import SocialLinks from "../ui/SocialLinks";
 import styles from "./Header.module.css";
@@ -10,13 +9,6 @@ const Header: React.FC = () => {
   return (
     <header className={styles.header}>
       <div className="container-custom flex items-center justify-between h-full">
-        {/* Logo */}
-        <Link to="/" className={styles.logo}>
-          <span className="text-3xl md:text-4xl">
-            🎮
-          </span>
-        </Link>
-
         {/* Navigation Desktop */}
         <div className="hidden md:flex items-center gap-8">
           <Navigation />
